@@ -1,0 +1,54 @@
+una vez instalado git en nuestra computadora
+
+git --version => revisar la version instalada
+
+Pasos para crear un repositorio
+
+1. Ubicarme en la terminal en la carpeta que se va a vincular con github
+2. Una vez ubicados en la carpeta se ingresa comando  git init
+ git init  (Nos ayuda a avisar a la carpeta que es un proyecto de git)
+
+git status  => nos muestra el estado de nuestro proyecto
+
+los comandos de git solo funcionan en carpetas que estan identificadas
+como repositorios de git 
+
+3. Añadir archivos a la carpeta 
+ Ejemplo 
+
+ echo Hola Alex > test.txt
+
+ rm => Borrar archivo 
+
+ 4.git status => nos muestra el estado de nuestro proyecto
+Nota: 
+Archivos en rojo => pendientes por seleccionar por enviar a guardar
+
+5. Correr comando 
+6.git add . => prepara archivos por enviar 
+
+Archivos en verde => listos para almacenar
+
+7.git commit -m "titulo de los archivos"
+
+*Hasta aqui se han guardado cambios en los archivos 
+*Esto solo existe de forma local (en el equipo)
+
+Desde github.com
+
+Crearemos repositorio que vinvularemos con el repositorio de la computadora
+
+1. Crear nuevo repositorio (Nombre/Publico)
+
+
+
+Subir cambios nuevos de nuestro repositorio
+1. Hacer modificacion ( Crear/añadir un archivo o modificar archivo existente)
+Ubicarse en la Terminal en la carpeta de mi repositorio
+2. git status
+3.git add . (añadir todos los archivo)
+4. git status
+5.git commit -m (titulo)
+6.git push
+
+

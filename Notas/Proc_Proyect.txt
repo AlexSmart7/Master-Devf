@@ -1,0 +1,25 @@
+
+- git init (Para iniciar repositorio en Git)
+
+- Clonar Repo
+
+- npm init -y
+	-(Genera el package.json)
+	-Se agregan o modifican los scripts (start,test)
+	("test": "nodemon index.js",
+    	 "start": " node index.js")
+
+- npm i nodemon -D 
+	-(Se va en dependencia de Desarrollador y no en Produccion)
+
+- npm run test
+	-(Ejecuta el nodemon)
+
+- Crear carpetas de arquitectura (src,assets) 
+	-dentro de src va el index.js y Carpeta Pages y dentro de pages (index.html))
+	-dentro de asserts( css, img, ico)
+ 
+- Generar una nueva rama de desarrollo
+
+	-git checkout -b dev
+
