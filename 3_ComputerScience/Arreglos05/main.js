@@ -162,11 +162,11 @@ console.log(estudiantesIncrementoSueldo)
 
 // nos permite crear un nuevo arreglo a partir de otro pero con una condicion dada
 
-var estudiantesFilatrados = estudiantes.filter((elemento,indice,array)=>{
+var estudiantesFiltrados = estudiantes.filter((elemento,indice,array)=>{
     return elemento.sueldo >= 10000
 })
 
-console.log(estudiantesFilatrados)
+console.log(estudiantesFiltrados)
 
 
 //Reduce
