@@ -46,6 +46,7 @@ class Agenda {
         return `No se encontro ${nombre} en la agenda`
     }
 
+
 }
 
 
@@ -70,6 +71,9 @@ console.log(agendaDevf)
 
 // Realizamos una busqueda por nombre 
 
-console.log(agendaDevf.buscar("Alex"))
+let busqueda = prompt("Escribe el nombre de quien deseas buscar?");
+console.log(agendaDevf.buscar(busqueda));
+
+//console.log(agendaDevf.buscar("Alex"))
 
 
