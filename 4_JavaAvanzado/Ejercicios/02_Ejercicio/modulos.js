@@ -4,7 +4,7 @@ var getName = function (name){
 };
 
 var getStar = function(star){
-    let infoStar = `Mi personaje de tv es: ` + star
+    let infoStar = `Personaje de tv favorito es: ` + star
     return console.log(infoStar)
 };
 
