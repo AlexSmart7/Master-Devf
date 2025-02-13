@@ -5,6 +5,8 @@ function doTask(typeValue,value){
     return console.log(text)
 };
 
+
+
 function readValue(data){
     var tipeValue = typeof data
     doTask(tipeValue,data);
