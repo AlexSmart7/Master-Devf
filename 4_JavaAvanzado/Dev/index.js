@@ -1,11 +1,13 @@
 var request = require('request');
+
 var options = {
-    'method': 'GET',
-    'url': 'https://api.nasa.gov/planetary/apod?api_key=TgVnwxOyTWiemrlxc4RkFm5v2f4yJO0lx02yeFI1',
-    'headers':{     
-    }
+  'method': 'GET',
+  'url': 'https://api.nasa.gov/planetary/apod?api_key=TgVnwxOyTWiemrlxc4RkFm5v2f4yJO0lx02yeFI1',
+  'headers': {
+  }
 };
-request(options,function(error,response){
-    if (error) throw new Error(error);
-    console.log(response.body);
+
+request(options, function (error, response) {
+  if (error) throw new Error(error);
+  console.log(response.body);
 });
