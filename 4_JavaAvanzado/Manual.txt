@@ -1,0 +1,11 @@
+
+Ligas de API's
+
+disneyapi.dev
+pokeapi.co
+rapidapi.com
+developer.marvel.com
+
+API KEY: 9771cde971d1a94e03f8060283d69461
+
+

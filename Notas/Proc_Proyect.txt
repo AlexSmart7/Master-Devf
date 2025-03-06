@@ -5,6 +5,14 @@
 
 - npm init -y
 	-(Genera el package.json)
+
+- Crear carpetas de arquitectura (src,assets) 
+	-dentro de src va el index.js y Carpeta Pages y dentro de pages (index.html))
+	-dentro de asserts( css, img, ico)
+ 
+
+-------------- Ocupando Nodemon --------------------------------------------------------
+
 	-Se agregan o modifican los scripts (start,test)
 	("test": "nodemon index.js",
     	 "start": " node index.js")
@@ -15,10 +23,44 @@
 - npm run test
 	-(Ejecuta el nodemon)
 
-- Crear carpetas de arquitectura (src,assets) 
-	-dentro de src va el index.js y Carpeta Pages y dentro de pages (index.html))
-	-dentro de asserts( css, img, ico)
- 
+
+-------------- Ocupando Parcel --------------------------------------------------------
+
+
+- npm install --save--dev parcel
+	
+	-Se remplaza el "main":"index.js" por "source": "src/pages/index.html"
+	-Se agregan o modifican los scripts (start,test) para ocupar parcel
+	"start": "parcel",
+	"dev": "parcel server -p 3000", 
+    	"build": "parcel build"
+
+	("source": "src/pages/index.html",
+  	"scripts": {
+    	"start": "parcel ",
+    	"build": "parcel build src/pages/index.html")
+
+	-Se agregan en el index.html
+	<link rel="stylesheet" href="../../assets/css/styles.css" />
+	<script type="module" src="../../assets/js/app.js"></script>
+
+- npm install --save-dev babel-preset-env
+
+	-Agregamos codigo de babel en el packjson para browsers
+	
+ 	"babel":{
+    	  "preset": [["env", {
+      	    "targets": {
+              "browsers": ["ie 8"]
+              }
+         }]] 
+
+- npm install axios
+
+
+-----------------------------------------------------------------------------
+
+
 - Generar una nueva rama de desarrollo
 
 	-git checkout -b dev
